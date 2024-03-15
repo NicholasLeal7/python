@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="dark">
+    <div class="left-side">
+        <nav class="card">
+            <header>
+                <div class="profile-header">
+                    <span class="profile-image">
+                        <img src="user.png" alt="">
+                    </span>
+                    <div class="profile-text text">
+                        <span class="name">Nicholas Leal</span>
+                        <span class="subtitle">Estagiário</span>
+                    </div>
+                </div>
+            </header>
+
+            <div class="menu-bar">                
+                <div class="menu">
+                    <li class="search-box">
+                        <i class="bx bx-search icon"></i>
+                        <input type="text" class="search-input" placeholder="Buscar opção...">
+                    </li>
+                    <ul class="menu-links">
+                        <li class="nav-link">
+                            <a href="">
+                                <i class="bx bx-home-alt icon"></i>
+                                <span class="nav-text text">Portal Expresso</span>
+                            </a>
+                        </li>
+                        <li class="nav-link">
+                            <a href="">
+                                <i class="bx bx-bar-chart-alt-2 icon"></i>
+                                <span class="nav-text text">Gestão de Equip.</span>
+                            </a>
+                        </li>
+                        <li class="nav-link">
+                            <a href="">
+                                <i class="bx bx-pie-chart-alt icon"></i>
+                                <span class="nav-text text">Track</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="bottom-content">
+                    <li class="nav-link">
+                        <a href="">
+                            <i class="bx bx-log-out icon"></i>
+                            <span class="nav-text text">Sair</span>
+                        </a>
+                    </li>
+                    <li class="mode-switch">
+                        <div class="sun-moon">
+                            <i id="icon" class="bx bx-sun icon sun"></i>
+                            <!-- <i id="moon" class="bx bx-moon icon moon"></i> -->
+                            <!-- <i id="sun" class="bx bx-sun icon sun" style="display: none;"></i> -->
+                        </div>
+
+                        <span class="text nav-text text-toggle">Modo Escuro</span>
+
+                        <div class="toggle-switch">
+                            <span class="switch"></span>
+                        </div>
+                    </li>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <div class="right-side">
+        <div class="screen"></div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
